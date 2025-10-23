@@ -6,7 +6,7 @@ class Vendas:
         self.conexao = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="root",
+            password="",
             database="crudbd"
         )
         self.cursor = self.conexao.cursor()
